@@ -1,9 +1,10 @@
 import './App.css';
+import BaiTapXucXac from './BaiTapRedux/BaiTapXucXac/BaiTapXucXac';
 
 function App() {
   return (
     <div className="App">
-      abc
+      <BaiTapXucXac />
     </div>
   );
 }

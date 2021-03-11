@@ -1,0 +1,25 @@
+.bg-game{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url('../assets/bgGame.png');
+    font-family: 'font-game';
+}
+
+@font-face {
+    font-family: 'font-game';
+    src: url('../Fonts/Pony.ttf');
+}
+.btnGame{
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    background-color: rgb(82, 108, 238);
+    color: #fff;
+    border: none;
+    border: 5px solid rgb(82,238,98);
+    border-radius: 10px ;
+}
+.selected {
+    border: 5px solid red;
+}
